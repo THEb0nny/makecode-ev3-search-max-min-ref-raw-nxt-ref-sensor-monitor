@@ -1,16 +1,3 @@
-let btnPressed = 0
-let nxtLightSensor1Min = 0
-let nxtLightSensor2Min = 0
-let nxtLightSensor3Min = 0
-let nxtLightSensor4Min = 0
-let nxtLightSensor1Max = 0
-let nxtLightSensor2Max = 0
-let nxtLightSensor3Max = 0
-let nxtLightSensor4Max = 0
-let nxtLightSensor1RefRaw = 0
-let nxtLightSensor2RefRaw = 0
-let nxtLightSensor3RefRaw = 0
-let nxtLightSensor4RefRaw = 0
 function Main () {
     while (true) {
         brick.clearScreen()
@@ -70,3 +57,17 @@ function Main () {
         pause(10)
     }
 }
+let nxtLightSensor4RefRaw = 0
+let nxtLightSensor3RefRaw = 0
+let nxtLightSensor2RefRaw = 0
+let nxtLightSensor1RefRaw = 0
+let nxtLightSensor4Max = 0
+let nxtLightSensor3Max = 0
+let nxtLightSensor2Max = 0
+let nxtLightSensor1Max = 0
+let nxtLightSensor4Min = 0
+let nxtLightSensor3Min = 0
+let nxtLightSensor2Min = 0
+let nxtLightSensor1Min = 0
+let btnPressed = 0
+Main()
